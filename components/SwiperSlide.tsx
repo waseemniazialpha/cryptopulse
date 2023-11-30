@@ -16,7 +16,7 @@ const SwiperSlide = () => {
     useEffect(() => {
       const timeout = setTimeout(() => {
         setShowPagination(true);
-      }, 2000);
+      }, 3000);
   
       return () => clearTimeout(timeout);
     }, []);
